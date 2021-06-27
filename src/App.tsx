@@ -10,12 +10,12 @@ import ErrorPage from "./Pages/ErrorPage";
 // components
 import Navbar from "./Components/Navbar";
 
-const App = () => {
+const App: React.FC = () => {
   return (
     <Router>
       <Navbar />
       <Switch>
-        {/*  <Route exact path="/rick-and-morty-api">  <HomePage /> </Route>    for Github Pages*/}
+        <Route exact path="/rick-and-morty-ts">  <HomePage /> </Route>  {/*  for Github Pages */}
         <Route exact path="/">
           <HomePage />
         </Route>
