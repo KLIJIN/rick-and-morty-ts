@@ -12,7 +12,7 @@ const SearchForm: React.FC = () => {
         <input type="text" name="text" className="form-input" placeholder="search by name" value={searchQuery} onChange={(e) => { handleSearch && handleSearch(e) }} />
       </form>
 
-      <div>
+      <div className="search-filters">
         <select name="character-status" className="character-status" onChange={(e) => { handleStatus && handleStatus(e) }}>
           <option value="">Character Status</option>
           <option value="alive">Alive </option>

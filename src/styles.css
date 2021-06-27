@@ -161,9 +161,9 @@ article {
 }
 
 /*
-=============== 
-Search
-===============
+============================ 
+           Search
+============================
 */
 .search-form {
   width: 90vw;
@@ -183,9 +183,15 @@ Search
   margin-top: 10px;
 }
 
+.search-filters {
+  max-width: var(--max-width);
+  width: 90vw;
+  margin: 0 auto;
+}
+
 .character-status,
 .character-gender {
-  margin-left: 40px;
+  margin-right: 40px;
   background-color: inherit;
   padding: 10px;
   border-radius: 5px;
@@ -194,9 +200,9 @@ Search
 }
 
 /*
-=============== 
-Buttons Component
-===============
+============================ 
+      Buttons Component
+============================
 */
 
 .btn-container {
@@ -230,9 +236,9 @@ Buttons Component
 }
 
 /*
-=============== 
+====================== 
 Story
-===============
+======================
 */
 .stories {
   width: 90vw;
@@ -296,9 +302,11 @@ Story
 }
 
 /* 
-====== Navbar ======
+================================== 
+             Navbar
+==================================
 */
-.navbar {
+*/ .navbar {
   height: 5rem;
   display: flex;
   align-items: center;
@@ -337,9 +345,9 @@ Story
 }
 
 /* 
-====== 
-About Page
-======
+================================== 
+          About Page
+==================================
 */
 
 .about-section {
@@ -358,9 +366,9 @@ About Page
   text-transform: capitalize;
 }
 /* 
-====== 
-Error Page
-======
+=========================== 
+         Error Page
+===========================
 */
 .error-page {
   display: flex;
@@ -385,7 +393,7 @@ Error Page
 }
 
 .CharacterCard {
-  padding-left: 0.5rem;
+  /* padding-left: 0.5rem; */
   padding-right: 0.5rem;
   flex-basis: 50%;
   display: flex;
@@ -394,7 +402,7 @@ Error Page
 
 @media screen and (min-width: 600px) {
   .CharacterCard {
-    padding-left: 0.5rem;
+    /* padding-left: 0.5rem; */
     padding-right: 0.5rem;
     flex-basis: 50%;
     flex-direction: row;
